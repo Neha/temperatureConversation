@@ -1,6 +1,6 @@
 {
   "name": "@nehasharma/tempconvert",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "NPM for Temperature conversation",
   "main": "index.js",
   "scripts": {
