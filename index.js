@@ -5,11 +5,12 @@
  * Fahrenheit to C and K
  */
 
-const celsiusToKelvin = (temp)=>{
-  const value = (temp + 273.15).toFixed(2);
-  return value + ' K'
-}
-const celsiusToFahrenheit = (temp)=>{
+  const celsiusToKelvin = (temp)=>{
+    const value = (temp + 273.15).toFixed(2);
+    return value + ' K'
+  }
+
+  const celsiusToFahrenheit = (temp)=>{
   const value = ((temp * 9/5) + 32).toFixed(2);
     return value + ' F'
   }
