@@ -6,24 +6,30 @@
  */
 
 const celsiusToKelvin = (temp)=>{
-  return (temp + 273.15) + ' K'
+  const value = (temp + 273.15).toFixed(2);
+  return value + ' K'
 }
 const celsiusToFahrenheit = (temp)=>{
-    return ((temp * 9/5) + 32) + ' F'
+  const value = ((temp * 9/5) + 32).toFixed(2);
+    return value + ' F'
   }
 
   const kelvinToFahrenheit = (temp)=>{
-    return ((temp - 273.15) * 9/5 + 32) + ' F'
+    const value = ((temp - 273.15) * 9/5 + 32).toFixed(2);
+    return value + ' F'
   }
   const kelvinToCelsuis = (temp)=>{
-    return (temp - 273.15) + ' C'
+    const value = (temp - 273.15).toFixed(2);
+    return value + ' C'
   }
 
   const fahrenheitToCelsuis = (temp)=>{
-    return ((temp - 32) * 5/9 ) + ' C'
+    const value = ((temp - 32) * 5/9 ).toFixed(2);
+    return value + ' C'
   }
   const fahrenheitToKelvin = (temp)=> {
-    return ((temp - 32) * 5/9 + 273.15) + ' K'
+    const value = ((temp - 32) * 5/9 + 273.15).toFixed(2);
+    return value + ' K'
   }
 
 module.exports = {

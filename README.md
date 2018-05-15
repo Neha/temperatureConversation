@@ -1,4 +1,4 @@
-# mathfun
+# tempConvert
 NPM for doing Temperature Converstion
 
 #NPM to take care of your maths calculations in your program.
