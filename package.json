@@ -1,0 +1,21 @@
+{
+  "name": "@nehasharma/tempconvert",
+  "version": "1.0",
+  "description": "NPM for Temperature conversation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "temperature", 
+    "temperature calculations",
+    "celsius To Kelvin",
+    "celsius To Fahrenheit",
+    "Fahrenheit To celsius",
+    "Fahrenheit To Kelvin",
+    "Kelvin To celsius",
+    "Kelvin To Fahrenheit"
+  ],
+  "author": "Neha Sharma [neha@jslovers.com]",
+  "license": "ISC"
+}
